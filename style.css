@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+}
+
+h1 {
+    color: #5ba660;
+    font-size: 300%;
+}
+
+.important {
+    font-style: italic;
+    color: darkgreen;
+}
+
+.review {
+    background-color: white;
+    padding: 3em;
+}
+
+.welcome {
+    border: 5px solid green;
+    text-align: center;
+}
+
+.dino-bio {
+    padding: 3em;
+}
+
+
+#welcome-message {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dinopic {
+    display: block;
+    margin: auto;
+    padding: 3em;
+}
