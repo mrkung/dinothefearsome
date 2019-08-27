@@ -6,6 +6,10 @@ body {
     color: darkslategray;
 }
 
+#welcome-message {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     color: #5ba660;
     font-size: 300%;
@@ -16,27 +20,40 @@ h1 {
     color: darkgreen;
 }
 
-.review {
-    background-color: white;
-    padding: 3em;
-}
+
 
 .welcome {
     border: 5px solid green;
     text-align: center;
 }
 
-.dino-bio {
-    padding: 3em;
-}
-
-
-#welcome-message {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.mrdino {
+    width: 50%;
+    float: left;
 }
 
 #dinopic {
     display: block;
-    margin: auto;
     padding: 3em;
+    width: 80%;
+}
+
+
+.review-section {
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+    width: 50%;
+    padding: 3em;
+}
+
+.dino-bio {
+    padding: 3em;
+}
+
+.dino {
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    background-color: lightgreen;
 }
