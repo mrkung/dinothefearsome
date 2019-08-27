@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkslategray;
+    color: #1c4444;
 }
 
 #welcome-message {
@@ -15,16 +14,11 @@ h1 {
     font-size: 300%;
 }
 
-.important {
-    font-style: italic;
-    color: darkgreen;
-}
-
-
-
 .welcome {
     border: 5px solid green;
+    background-color: #1c4444;
     text-align: center;
+    color: #a9f1d0;
 }
 
 .mrdino {
@@ -41,7 +35,7 @@ h1 {
 
 .review-section {
     box-sizing: border-box;
-    background-color: white;
+    background-color: #a9f1d0;
     float: left;
     width: 50%;
     padding: 3em;
@@ -55,5 +49,5 @@ h1 {
     box-sizing: border-box;
     float: right;
     width: 50%;
-    background-color: lightgreen;
+    background-color: #dbffef;
 }
