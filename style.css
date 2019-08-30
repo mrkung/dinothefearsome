@@ -118,7 +118,7 @@ a {
 .navigation li {
     /* border: 1px solid grey; */
     flex-direction: row;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 18px;
     padding: 1em;
     list-style: none;
