@@ -90,8 +90,45 @@ a {
 }
 
 
+.dino-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.dino-box img {
+    display: block;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 1em;
+    background: #1c4444;
+}
 
 
+.pic-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.pic-frame img {
+    height: 300px;
+    width: 300px;
+    margin: 1em;
+}
+
+.pic-frame p {
+    text-align: center;
+}
 
 
 
