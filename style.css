@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     color: #1c4444;
 }
 
 #welcome-message {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-style: oblique;
 }
 
 h1 {
@@ -15,10 +16,10 @@ h1 {
 }
 
 .welcome {
-    border: 5px solid #034e00;
-    background-color: #1c4444;
+    /* border: 5px solid #034e00; */
+    /* background-color: #1c4444; */
     text-align: center;
-    color: #a9f1d0;
+    padding: 3em;
 }
 
 .mrdino {
@@ -35,9 +36,9 @@ h1 {
 
 .review-section {
     box-sizing: border-box;
-    background-color: #a9f1d0;
-    float: left;
-    width: 50%;
+    /* background-color: #a9f1d0; */
+    /* float: left;
+    width: 50%; */
     padding: 3em;
 }
 
@@ -47,7 +48,7 @@ h1 {
 
 .dino {
     box-sizing: border-box;
-    float: right;
+    /* float: right; */
     width: 50%;
     background-color: #dbffef;
 }
@@ -57,7 +58,15 @@ a {
     color: inherit;
 }
 
+/* HELP PAGE */
 
+.help-body {
+    text-align: center;
+}
+
+.help-body img {
+    width: 50%;
+}
 
 
 
@@ -70,7 +79,7 @@ a {
 
 
 
-.container {
+/* .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,7 +116,10 @@ a {
     box-sizing: border-box;
     margin: 1em;
     background: #1c4444;
-}
+} */
+
+
+
 
 
 .pic-container {
@@ -116,31 +128,32 @@ a {
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    border: 1px solid black;
     justify-content: center;
 }
 
-.pic-frame img {
-    height: 300px;
-    width: 300px;
+.pic-frame {
     margin: 1em;
+    background: #1c4444;
+    border: 1px solid white;
+}
+
+.pic-frame img {
+    height: 200px;
+    width: 200px;
+    margin: 3em 3em 0 3em;
 }
 
 .pic-frame p {
     text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 1em 0;
 }
 
 
 
 
 /* Dino's Portfolio Website */
-
-
-
-
-
-
-
 
 .navigation {
     display: flex;
@@ -162,7 +175,18 @@ a {
     color: #FFFFFF;
 }
 
+/* ABOUT PAGE */
+
+.about-body {
+    text-align: center;
+}
+
+.about-body p {
+    width: 50vw;
+    margin: auto;
+}
 
 .nocompdino {
-    width: 200px;
+    height: 50vh;
+    margin-top: 3em;
 }
